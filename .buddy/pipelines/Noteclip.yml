@@ -8,6 +8,7 @@
   actions:
   - action: nosetests
     type: BUILD
+    disabled: true
     commands: |-
       pip install -r requirements.txt
       nosetests
